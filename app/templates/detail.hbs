@@ -1,0 +1,15 @@
+<form>
+<div class="container">
+<table class="table table-hover table-secondary">
+   <tr>
+       <td><img src="{{model.Poster}}" alt="Poster" height="300" width="230"></td>
+       <td>{{model.Plot}}</td>
+   </tr>   
+   <tr>
+       <td><b>{{model.Title}}</b></td>
+       <td>Actors: {{model.Actors}}</td>
+   </tr>
+</table>
+</div>
+</form>
+{{outlet}}

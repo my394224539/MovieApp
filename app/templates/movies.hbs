@@ -1,0 +1,41 @@
+{{outlet}}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li><LinkTo @route="movies"><img src="/Home.png" alt="Home" >Home</LinkTo></li>
+
+            </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <Input class="form-control mr-sm-2" @value={{this.Search}} @type="search" placeholder="Search" aria-label="Search"/>
+            <button {{action "submit" this.Search }} class="btn btn-outline-dark my-2 my-sm-0" type="submit" >Search</button>
+        </form>
+    </div>
+</nav>
+
+<form>
+<div class="container">
+<table class="table table-hover table-secondary">
+          <thead class="thead-dark ">
+            <tr>
+              <th scope="col">Poster</th>
+              <th scope="col">Title</th>
+              <th scope="col">Release date:</th>
+              <th scope="col">Movie Type:</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each this.model as |movie|}}
+            <tr>
+              <td><LinkTo @route="detail" @model={{movie.id}}><img src="{{movie.Poster}}" alt="Poster" height="300" width="230"></LinkTo></td>
+              <td><b>{{movie.Title}}</b></td>
+              <td>{{movie.Year}}</td>
+              <td>{{movie.Type}}</td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+        </div>
+</form>
+
+
+
