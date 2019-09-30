@@ -1,57 +1,39 @@
-# project2
+# MovieAPP
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Author: Feng Chen
 
-## Prerequisites
+Application that use to search movie
 
-You will need the following things properly installed on your computer.
+## Time spent
+Tutorials, research: 5 hours Coding required stories: 4 hour
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+## User stories
 
-## Installation
+### Required
+ * [✓] User can search for movies. 
+ * [✓] On page load, user can see 3-5 pre-selected movies.
+ * [✓] User can click on movie to see a detail page with more information (e.g. ratings, descriptions, author)
 
-* `git clone <repository-url>` this repository
-* `cd project2`
-* `npm install`
+### Optional
 
-## Running / Development
+ * [ ] Fade in the poster images
+ * [ ] Have a toggle which switches the search layout between a "grid" view and a "table" style view
+ * [ ] Have an error message if the API fails to load.
+ * [ ] Show a loading state when fetching for a movie
+ * [ ] Have a pagination mechanism that allows the user to see more results. Show the total number of results.
+ * [ ] Add a light/dark color theme toggle on the page
+ * [ ] Page is optimized for the viewport/browser size (i.e. scales to mobile & desktop sizes)
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+### Extra
 
-### Code Generators
+ * Any extra or other features not mentioned?
 
-Make use of the many generators for code, try `ember help generate` for more details
+## GIF Walkthrough
 
-### Running Tests
+![Walkthrough GIF](path/to/gif.gif)
 
-* `ember test`
-* `ember test --server`
+GIF created with [LiceCap](https://www.cockos.com/licecap/).
 
-### Linting
+## Notes & shoutouts
 
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Tell us more about your journey here or resources used. e.g. "Spent some additional time researching and playing with color options via CSS, and looking at MDN to understand localStorage. Shoutout to Luke for helping me with that controller issue! Here is another URL/project where I leveraged some HTML code in my project: ....."
