@@ -5,7 +5,8 @@ Author: Feng Chen
 Application that use to search movie
 
 ## Time spent
-Tutorials, research: 5 hours Coding required stories: 4 hour
+Tutorials, research: 7 hours 
+Coding required stories: 5 hours
 
 ## User stories
 
