@@ -35,4 +35,4 @@ GIF created with [LiceCap](https://www.cockos.com/licecap/).
 
 ## Notes & shoutouts
 
-I made a tons of research from youtube, google, and it really costed me alot of time to get familliar with ember, such like connection between HTML, CSS, JS. What does controller, components, template do, how to install boostrap ect... After few hours researching, I think I'm getting more and more familliar.
+I made tons of research from youtube, google, and I was struggling with how to set up the serializer and route. There are always some unknown problems that make me go crazy, it was a challenging project since I have never done it before. Eventually, I've finished this project after I spend lots of my hours and made tons of research, and I find out it was actually pretty easy, I have to get more familiar with Ember.
